@@ -12,7 +12,6 @@ struct Node
         next = NULL;
     }
 };
-* /
 
     /*You are required to complete this method*/
 
