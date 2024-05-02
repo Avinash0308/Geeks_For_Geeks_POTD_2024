@@ -32,7 +32,7 @@ public:
         if (s >= e)
             return NULL;
         auto mid = s + (e - s) / 2;
-        Node *root = Node();
+        Node *root = new Node();
         root->data = v[mid];
         root->left = buildtree(v, s, mid);
         root->right = buildtree(v, mid + 1, e);
