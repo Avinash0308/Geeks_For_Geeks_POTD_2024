@@ -12,17 +12,13 @@ struct Node
         npx = NULL;
     }
 };
-
-Utility function to get XOR of two Struct Node pointer
-    use this function to get XOR of two pointers struct Node *
-    XOR(struct Node *a, struct Node *b)
+struct Node *XOR(struct Node *a, struct Node *b)
 {
     return (struct Node *)((uintptr_t)(a) ^ (uintptr_t)(b));
 }
-* /
 
-    // function should insert the data to the front of the list
-    struct Node *insert(struct Node *head, int data)
+// function should insert the data to the front of the list
+struct Node *insert(struct Node *head, int data)
 {
     // Code here
     Node *h = new Node(data);
