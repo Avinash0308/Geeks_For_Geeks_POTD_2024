@@ -1,17 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct node
+struct Node
 {
     int data;
-    struct node *next;
+    struct Node *next;
 
-    node(int x)
+    Node(int x)
     {
         data = x;
         next = NULL;
     }
-} *head;
+};
 
 class Solution
 {
