@@ -1,7 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-  int r=mat.size();
+class Solution {
+  public:
+    void setMatrixZeroes(vector<vector<int>> &mat) {
+          int r=mat.size();
         int c=mat[0].size();
         bool fr=false;
         int fc=false;
@@ -57,6 +60,8 @@ using namespace std;
                 mat[i][0]=0;
             }
         }
+    }
+};
 int main(){
     return 0;
 }
